@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 500%;
+  text-align: center;
+}
+
+#word, #mistakes {
+  padding: 10px;
+  margin: 30px;
+  border: 2px black solid;
+}
+
+#word {
+  font-size: 800%;
+  background: #cfc;
+  text-align: center;
+}
+
+#mistakes {
+  font-size: 400%;
+  background: #fcc;
+  text-align: right;
+}
+
+#word, #bad-chars, #lives-left {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+#word, #bad-chars {
+  letter-spacing: 10px;
+}
+
+#bad-chars, #lives-left {
+  display: inline-block;
+  text-align: left;
+  width: 45%;
+}
+
+#restart {
+  display: none;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffc;
+  position: absolute;
+  right: 38px;
+}
+
+#keyboard {
+  font-family: monospace;
+  font-size: 350%;
+  font-weight: bold;
+  text-align: center;
+}
+#keyboard > div {
+  display: inline-block;
+  text-align: left;
+  white-space: nowrap;
+}
+#keyboard > div > div:nth-child(3n+2) {
+  margin-left: 0.8em;
+}
+#keyboard > div > div:nth-child(3n) {
+  margin-left: 1.6em;
+}
+.key {
+  font-family: monospace;
+  font-size: 100%;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1ex;
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: #ddd;
+  transition: background-color 0.25s;
+}
+.key:active {
+  background-color: #999;
+}
