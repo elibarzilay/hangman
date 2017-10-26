@@ -48,6 +48,10 @@ function updateDisp() {
 };
 
 function handleKey(ev) {
+  if (ev.type == "click") {
+    ev.key = ev.target.textContent;
+    ev.repeat = false;
+  }
   if (ev.repeat || ev.ctrlKey || ev.altKey || ev.key.length != 1
       || gameState != States.play)
     return;
@@ -79,7 +83,6 @@ function handleKey(ev) {
   }
   updateDisp();
 };
-document.addEventListener("keyup", handleKey);
 
 var delay;
 function spin() {
@@ -102,3 +105,13 @@ function run() {
   gameState = States.spin;
   spin();
 }
+
+function init() {
+  document.addEventListener("keyup", handleKey);
+  for (var elt of document.getElementsByClassName("key"))
+    elt.addEventListener("click", handleKey);
+  elem("restart").addEventListener("click", run);
+  run();
+}
+
+window.addEventListener("load", init);
