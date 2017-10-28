@@ -7,6 +7,13 @@ h1 {
   text-align: center;
 }
 
+#visual {
+  padding: 40px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+}
+
 #word, #mistakes {
   padding: 10px;
   margin: 30px;
@@ -15,9 +22,13 @@ h1 {
 
 #word {
   font-size: 800%;
-  background: #cfc;
   text-align: center;
+  transition: background-color 0.5s;
 }
+#word.spin { background: #ffc; }
+#word.play { background: #cfc; }
+#word.win  { background: #cff; }
+#word.lose { background: #fcc; }
 
 #mistakes {
   font-size: 400%;

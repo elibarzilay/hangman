@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" width="100" height="100" viewBox="0 0 100 100">
+  <g style="display:inline" transform="translate(1.9462545,4.7987376)">
+    <rect style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.25713491;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ry="0.92522299" rx="1.2083929" y="-73.140182" x="-0.063243799" height="6.0122466" width="90.519501" transform="rotate(90)" />
+    <rect style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.01348567;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ry="0.92522299" rx="0.46177849" y="-38.008858" x="69.858521" height="6.0122466" width="34.59137" transform="matrix(0.5,0.86602541,-1,0,0,0)" />
+    <rect style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.01348567;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" ry="0.92522299" rx="0.46177849" y="102.25927" x="69.858521" height="6.0122466" width="34.59137" transform="matrix(-0.5,0.86602541,1,0,0,0)" />
+  </g>
+</svg>
